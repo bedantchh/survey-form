@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+        <h1 id="title" >XYZ Survey form</h1>
+        <p id="description">Thank you for filling this up.</p>
+
+    </div>
+
+    <form id="survey-form">
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="fname" name="fullname"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+
+        <p>Which year are you in?</p>
+        <input type="radio" id="1styear" name="year" value="radio">
+        <label for="1styear">1st year</label><br>
+        <input type="radio" id="2ndyear" name="year" value="radio">
+        <label for="2ndyear">2nd year</label><br>
+        <input type="radio" id="3rdyear" name="year" value="radio">
+        <label for="3rdyear">3rd year</label><br>
+        <input type="radio" id="4thyear" name="year" value="radio">
+        <label for="4thyear">4th year</label><br>
+
+        <p>What programming languages do you know?</p>
+        <input type="checkbox" id="lang1" name="lang1" value="C">
+        <label for="lang1">C</label><br>
+        <input type="checkbox" id="lang2" name="lang2" value="C++">
+        <label for="lang2">C++</label><br>
+        <input type="checkbox" id="lang3" name="lang3" value="Java">
+        <label for="lang3">Java</label><br>
+        <input type="checkbox" id="lang4" name="lang4" value="python">
+        <label for="lang4">Python</label><br>
+
+        <label for="favcol">What is your fav colour</label><br>
+        <select id="colours" name="colours" size="3"><br>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <p>Tell about yourself.</p>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+
+        <button type="button" id="bttn">Submit</button>
+        </form>
+
+</body>
+</html>
